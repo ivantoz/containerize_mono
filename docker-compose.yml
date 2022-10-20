@@ -1,0 +1,16 @@
+version: "3"
+services:
+  app:
+    container_name: containerize_app_1
+    build:
+      context: app
+    ports:
+    - "8000:8000"
+    image: containerize_app
+    restart: unless-stopped
+  nginx:
+    container_name: containerize_nginx_1
+    build:
+      context: nginx
+    image: containerize_nginx
+    restart: unless-stopped
