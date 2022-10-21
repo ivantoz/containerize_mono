@@ -27,4 +27,5 @@ services:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf
       - ./nginx/files/localhost.crt:/etc/ssl/certs/localhost.crt
       - ./nginx/files/localhost.key:/etc/ssl/private/localhost.key
+      - ./nginx/external/logs:/var/log/nginx/
 
