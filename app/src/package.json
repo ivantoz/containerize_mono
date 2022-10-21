@@ -4,8 +4,13 @@
   "description": "assesment test",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon --watch . index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
