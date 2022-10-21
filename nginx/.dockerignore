@@ -1,1 +1,4 @@
-# your code goes here ...
+.DS_Store
+Dockerfile
+.git
+.gitignore
